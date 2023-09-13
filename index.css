@@ -139,6 +139,13 @@ header {
     flex-basis: 50%;
 }
 
+.section-panel-right {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .section-panel-left {
     font-style: normal;
     font-size: 64px !important; 
@@ -172,6 +179,9 @@ td {
     vertical-align: bottom;
 }
 
+iframe {
+    max-width: 80%;
+}
 
 @media screen and (min-width: 1440px) {
     .navbar-menu-section-item {
@@ -237,5 +247,3 @@ td {
         font-size: 40px;
     }
 }
-
-

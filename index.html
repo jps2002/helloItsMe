@@ -3,77 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John's site</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
-    <div class="content">
-        <div class="content_inner">
-            <header class="header">
-                <div class="cell_h hide">
-                    <div class="line"></div>
-                </div>
-                <div class="nav_group">
-                    <div class="nav_section">
-                        <div class="logo_wrapper">
-                            <a class="logo_link">HEROU SIR</a>
-                        </div>
-                    </div>
-                    <div class="nav_section">
-                        <div class="nav_outer">
-                            <div class="nav_items">
-                                <div class="nav_items_inner">
-                                    <a href="" class="main_nav_item">
-                                        <div>
-                                            About me
-                                        </div>
-                                    </a>
-                                    <a href="" class="main_nav_item">
-                                        <div>
-                                            Curriculum 
-                                        </div>
-                                    </a>
-                                    <a href="" class="main_nav_item">
-                                        <div>
-                                            Curriculum 
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="nav_items">
-                                <div class="nav_items_inner">
-                                    <a href="" class="main_nav_item">
-                                        <div>
-                                            Projects
-                                        </div>
-                                    </a>
-                                    <a href="" class="main_nav_item">
-                                        <div>
-                                            Contact 
-                                        </div>
-                                    </a>
-                                    <a href="" class="main_nav_item">
-                                        <div>
-                                            Contact 
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="cell_h">
-                    <div class="line"></div>
-                </div>
-            </header>
-            
-        </div>
 
-    </div>
-    
+    <div class="content-inner">
+        <header>
+            <nav class="navbar">
+                <h1 class="navbar-logo" >João Pedro </h1>
+                <div class="navbar-menu">
+                    <div class="navbar-menu-section">
+                        <div class="navbar-menu-section-item">
+                            <a href="#Publications">Publications</a>
+                        </div>
+                        <div class="navbar-menu-section-item">
+                            <a href="">Projects</a>
+                        </div>
+                    </div>
+                    <div class="navbar-menu-section">
+                        <div class="navbar-menu-section-item">
+                            <a href="">CV</a>
+                        </div>
+                        <div class="navbar-menu-section-item">
+                            <a href="">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+
+                <div class="hero-section hero-section-left ">
+                    <p class="">A CS undergrad from Rio who is passionate about <br> <span class="primary">building things.</span></p>
+                    <div class="hero-section-spacer" ></div>
+                </div>
+                <div class="hero-section hero-section-right">
+                    <img src="https://assets-global.website-files.com/5c704d1f2330ed8ed0183881/5fff5384dfefca858ef8ad72_map-global.svg" loading="lazy" alt="" class="image">
+                    <p><span class="primary">I am completing my studies at Universidade Federal do Rio de Janeiro.</span><br>There, I am a board member of the Institute of Computation, Director of a Study Group and am working on building a OpenCourseWare platform. Looking foward to work as a Software Engineer or Product Manager after graduation.</p>
+                </div>
+            </div>
+
+            <div id="Publications" class="Publications">
+                <div class="section-title">
+                    <p>Publications</p>
+                </div>
+                <div class="section-group">
+                    <div class="section-panel section-panel-left">
+                        <p class="primary">Things I've written</p>
+                    </div>
+                    <div class="section-panel section-panel-right">
+                        <table>
+                            <thead>
+                                <th>Title</th>
+                                <th>Published in</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Lorem ipsum dolor sit.</td>
+                                    <td>May, 2023</td>
+                                </tr>
+                                <tr>
+                                    <td>Lorem ipsum dolor sit.</td>
+                                    <td>June, 2023</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Music">
+                <div class="section-title">
+                    <p>Music</p>
+                </div>
+                <div class="section-group">
+                    <div class="section-panel section-panel-left">
+                        <p class="primary">What I've been listening recently</p>
+                    </div>
+                    <div class="section-panel section-panel-right">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ho7796-au8U?si=DdU8kS7cVlqZqBb6&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="CV">
+                
+            </div>
+
+        </main>
+
+        <footer></footer>
+    </div>    
 </body>
 </html>
